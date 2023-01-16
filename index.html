@@ -3,76 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Front-End/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Front-End/style.css" />
     <script src="https://kit.fontawesome.com/7cdd666234.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7cdd666234.js" crossorigin="anonymous"></script>
-    <script src="jquery-3.6.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <!-- <script src="script.js"></script> -->
+    <title>Incubation cernter</title>
 </head>
 
 <body>
 
     <!-- navbar -->
 
-    <nav class="navbar">
-        <div class="container">
-
-            <div class="navbar-header">
-                <button class="navbar-toggler" data-toggle="open-navbar1">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <a href="#">
-                    <div class="logo">Incubation<span>center</span></div>
-                </a>
-            </div>
-
-            <div class="navbar-menu" id="open-navbar1">
-                <ul class="navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="navbar-dropdown">
-                        <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
-                            Categories <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="dropdown" id="my-dropdown-id">
-                            <li><a href="#">Actions</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="separator"></li>
-                            <li><a href="#">Seprated link</a></li>
-                            <li class="separator"></li>
-                            <li><a href="#">One more seprated link.</a></li>
-                        </ul>
-                    </li>
-                    <li class="navbar-dropdown">
-                        <a href="#" class="dropdown-toggler" data-dropdown="blog">
-                            Blog <i class="fa fa-angle-down"></i>
-                        </a>
-                        <ul class="dropdown" id="blog">
-                            <li><a href="#">Some category</a></li>
-                            <li><a href="#">Some another category</a></li>
-                            <li class="separator"></li>
-                            <li><a href="#">Seprated link</a></li>
-                            <li class="separator"></li>
-                            <li><a href="#">One more seprated link.</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Signin</a></li>
-                </ul>
-            </div>
+    <nav class="nav">
+        <div class="logo">
+            <img src="logo.svg" alt="Logo Image">
         </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><button class="login-button" href="#">Login</button></li>
+            <li><button class="join-button" href="#">Join</button></li>
+        </ul>
     </nav>
 
-    <!-- social  -->
+    <!-- social icon -->
+
     <div class="social">
         <a href="#">Facebook<i class="fa-brands fa-facebook"></i></a>
         <a href="#">Youtube<i class="fa-brands fa-youtube"></i></a>
@@ -93,6 +57,7 @@
     </div>
 
     <!-- website -->
+
     <div class="website">
         <div class="website-Heading">what website name we do?</div>
         <div class="webiste-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor vitae architecto quas accusantium odit, deserunt in suscipit laborum corporis necessitatibus minus pariatur, ad officiis modi corrupti quisquam dicta quasi eum quam eveniet! Ipsum
@@ -167,98 +132,51 @@
     <!-- footer -->
 
     <footer>
-        <div>
-            <span class="logo">Incubation center</span>
-        </div>
-
-        <div class="row">
-            <div class="col-3">
-                <div class="link-cat" onclick="footerToggle(this)">
-                    <span class="footer-toggle"></span>
-                    <span class="footer-cat">Solution</span>
+        <div class="content">
+            <div class="left box">
+                <div class="upper">
+                    <div class="topic">About us</div>
+                    <p>CodingLab is a channel where you can learn HTML, CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
                 </div>
-                <ul class="footer-cat-links">
-                    <li><a href=""><span>Interprise App Development</span></a></li>
-                    <li><a href=""><span>Android App Development</span></a></li>
-                    <li><a href=""><span>ios App Development</span></a></li>
-                </ul>
-            </div>
-            <div class="col-3">
-                <div class="link-cat" onclick="footerToggle(this)">
-                    <span class="footer-toggle"></span>
-                    <span class="footer-cat">Industries</span>
+                <div class="lower">
+                    <div class="topic">Contact us</div>
+                    <div class="phone">
+                        <a href="#"><i class="fas fa-phone-volume"></i>+007 9089 6767</a>
+                    </div>
+                    <div class="email">
+                        <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+                    </div>
                 </div>
-                <ul class="footer-cat-links">
-                    <li><a href=""><span>Healthcare</span></a></li>
-                    <li><a href=""><span>Sports</span></a></li>
-                    <li><a href=""><span>ECommerce</span></a></li>
-                    <li><a href=""><span>Construction</span></a></li>
-                    <li><a href=""><span>Club</span></a></li>
-                </ul>
             </div>
-            <div class="col-3">
-                <div class="link-cat" onclick="footerToggle(this)">
-                    <span class="footer-toggle"></span>
-                    <span class="footer-cat">Quick Links</span>
-                </div>
-                <ul class="footer-cat-links">
-                    <li><a href=""><span>Reviews</span></a></li>
-                    <li><a href=""><span>Terms & Condition</span></a></li>
-                    <li><a href=""><span>Disclaimer</span></a></li>
-                    <li><a href=""><span>Site Map</span></a></li>
-                </ul>
+            <div class="middle box">
+                <div class="topic">Our Services</div>
+                <div><a href="#">Web Design, Development</a></div>
+                <div><a href="#">Web UX Design, Reasearch</a></div>
+                <div><a href="#">Web User Interface Design</a></div>
+                <div><a href="#">Theme Development, Design</a></div>
+                <div><a href="#">Mobile Application Design</a></div>
+                <div><a href="#">Wire raming & Prototyping</a></div>
             </div>
-            <div class="col-3" id="newsletter">
-                <span>Stay Connected</span>
-                <form id="subscribe">
-                    <input type="email" id="subscriber-email" placeholder="Enter Email Address" />
-                    <input type="submit" value="Subscribe" id="btn-scribe" />
+            <div class="right box">
+                <div class="topic">Subscribe us</div>
+                <form action="#">
+                    <input type="text" placeholder="Enter email address">
+                    <input type="submit" name="" value="Send">
+                    <div class="media-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </form>
-
-                <div class="social-links social-2">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-tumblr"></i></a>
-                    <a href=""><i class="fab fa-reddit-alien"></i></a>
-                </div>
-
-                <div id="address">
-                    <span>Office Location</span>
-                    <ul>
-                        <li>
-                            <i class="far fa-building"></i>
-                            <div>Los Angeles<br /> Office 9B, Sky High Tower, New A Ring Road, Los Angeles</div>
-                        </li>
-                        <li>
-                            <i class="fas fa-gopuram"></i>
-                            <div>Delhi<br /> Office 150B, Behind Sana Gate Char Bhuja Tower, Station Road, Delhi</div>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-            <div class="social-links social-1 col-6">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-tumblr"></i></a>
-                <a href=""><i class="fab fa-reddit-alien"></i></a>
             </div>
         </div>
-        <div id="copyright">
-            &copy; All Rights Reserved 2019-2020
-        </div>
-        <div id="owner">
-            <span>
-                Designed by <a href="https://www.codingtuting.com">CodingTuting.Com</a>
-            </span>
+        <div class="bottom">
+            <p>Copyright © 2020 <a href="#">CodingLab</a> All rights reserved</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
+    <script src="./Front-End/script.js"></script>
 </body>
 
 </html>
