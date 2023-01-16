@@ -44,7 +44,6 @@
 
 .logo {
     padding: 1vh 1vw;
-    text-align: center;
 }
 
 .logo img {
@@ -224,66 +223,6 @@
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-}
-
-
-/* social icon */
-
-.social {
-    position: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transform: translate(-250px, 0);
-    z-index: 5;
-    top: 7%;
-}
-
-.social a {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.4);
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    display: block;
-    margin: 5px;
-    padding: 20px;
-    width: 265px;
-    text-align: right;
-    border-radius: 50px;
-    transition: 1s;
-    transition-property: transform;
-}
-
-.social a:hover {
-    transform: translate(148px, 0);
-}
-
-.social i {
-    margin-left: 10px;
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
-}
-
-.social a:nth-child(1) i {
-    color: #3b5998;
-}
-
-.social a:nth-child(2) i {
-    color: #912413;
-}
-
-.social a:nth-child(3) i {
-    color: transparent;
-    background-image: linear-gradient(45deg, #FFDF9E, #E56969, #8A49A1);
-    -webkit-background-clip: text;
-    font-weight: 600;
-}
-
-.social a:nth-child(4) i {
-    color: #4ECCE8;
 }
 
 
@@ -501,6 +440,7 @@
     width: 100vw;
     height: 300px;
     margin-top: 3%;
+    overflow-y: hidden;
 }
 
 .pic-ctn img {
@@ -540,6 +480,13 @@ img:nth-child(5) {
     .team {
         margin-top: 15%;
         margin-bottom: 20%;
+    }
+    .pic-ctn {
+        width: 100vw;
+    }
+    .pic-ctn img {
+        height: 140%;
+        width: 40%;
     }
 }
 
