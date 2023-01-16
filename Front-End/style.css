@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 * {
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
     color: #f2f5f7;
@@ -30,9 +29,9 @@
 
 .nav {
     top: 0%;
-    height: 6rem;
+    height: 5rem;
     width: 100vw;
-    background-color: #131418;
+    background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
@@ -47,8 +46,8 @@
 }
 
 .logo img {
-    height: 5rem;
-    width: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
 }
 
 
@@ -70,7 +69,7 @@
 }
 
 .nav-links li a:hover {
-    color: #61DAFB;
+    color: #fff;
 }
 
 .nav-links li {
@@ -82,10 +81,10 @@
     display: block;
     height: 3px;
     width: 0%;
-    background-color: #61DAFB;
+    background-color: #fff;
     position: absolute;
     transition: all ease-in-out 250ms;
-    margin: 0 0 0 10%;
+    margin: 17% 0% 0% 10%;
 }
 
 .nav-links li a:hover::before {
