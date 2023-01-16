@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 * {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     color: #f2f5f7;
@@ -343,6 +344,14 @@
     opacity: 80%;
 }
 
+@media screen and (max-width: 800px) {
+    .bg-text button {
+        font-weight: 900;
+        font-Size: 20px;
+        width: 30%;
+    }
+}
+
 
 /* website */
 
@@ -377,6 +386,10 @@
 
 
 /* startups css */
+
+.startups {
+    overflow: hidden;
+}
 
 .startups-Heading {
     text-align: center;
