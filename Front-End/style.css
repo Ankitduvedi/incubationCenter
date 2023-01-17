@@ -594,17 +594,6 @@ footer .content .media-icons a {
     border-color: #eb2f06;
 }
 
-footer .bottom {
-    width: 100%;
-    text-align: right;
-    color: #d9d9d9;
-    padding: 0 40px 5px 0;
-}
-
-footer .bottom a {
-    color: #eb2f06;
-}
-
 footer a {
     transition: all 0.3s ease;
 }
