@@ -310,6 +310,10 @@
     color: black;
 }
 
+.webiste-body ul{
+    color: black;
+}
+
 @media screen and (max-width: 800px) {
     .website-Heading {
         font-weight: 600;
