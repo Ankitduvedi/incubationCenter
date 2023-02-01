@@ -292,6 +292,12 @@
 
 /* website */
 
+.website {
+    background-color: #f9f3f3;
+    height: 50vh;
+    padding: 5%;
+}
+
 .website-Heading {
     text-align: center;
     font-weight: 600;
@@ -330,6 +336,7 @@
 
 .startups {
     overflow: hidden;
+    height: 70vh;
 }
 
 .startups-Heading {
@@ -475,6 +482,12 @@
     .startups-Heading {
         font-size: 35px;
     }
+}
+
+/* objective */
+.objectives{
+    height: 70vh;
+    padding: 5%;
 }
 
 

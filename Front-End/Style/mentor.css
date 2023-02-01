@@ -1,19 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=PT+Sans&family=Poppins:ital,wght@0,400;0,800;1,400;1,800&family=Sacramento&family=Ubuntu:wght@700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    color: #f2f5f7;
-    font-family: 'PT Sans', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 300;
-}
-
-body {
-    background-color: #d4d5d5;
-}
-
 /*startups*/
-
 .mentor{
     position: relative;
     text-align: center;
